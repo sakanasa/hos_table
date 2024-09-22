@@ -102,10 +102,10 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 24 * -1,"bold")
 )
-var1 = tk.IntVar()
-checkbutton1 = tk.Checkbutton(window, text="", variable=var1,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
-checkbutton1.place(x=82, y=179)  # 調整位置，使其在文字前面
-checkbutton1.deselect()
+var01 = tk.IntVar()
+checkbutton01 = tk.Checkbutton(window, text="", variable=var01,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton01.place(x=82, y=179)  # 調整位置，使其在文字前面
+checkbutton01.deselect()
 
 canvas.create_text(
     752.0,
@@ -980,6 +980,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var64 = tk.IntVar()
+checkbutton64 = tk.Checkbutton(window, text="", variable=var64,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton64.place(x=722, y=433)  # 調整位置，使其在文字前面
+checkbutton64.deselect()
+
 canvas.create_text(
     745.0,
     487.0,
@@ -988,6 +993,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var65 = tk.IntVar()
+checkbutton65 = tk.Checkbutton(window, text="", variable=var65,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton65.place(x=722, y=487)  # 調整位置，使其在文字前面
+checkbutton65.deselect()
 
 canvas.create_text(
     879.0,
@@ -1006,6 +1016,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var67 = tk.IntVar()
+checkbutton67 = tk.Checkbutton(window, text="", variable=var67,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton67.place(x=722, y=547)  # 調整位置，使其在文字前面
+checkbutton67.deselect()
 
 canvas.create_text(
     878.0,
@@ -1026,13 +1041,18 @@ canvas.create_text(
 )
 
 canvas.create_text(
-    744.0,
+    745.0,
     518.0,
     anchor="nw",
     text="疑似囊腫",
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var66 = tk.IntVar()
+checkbutton66 = tk.Checkbutton(window, text="", variable=var66,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton66.place(x=722, y=518)  # 調整位置，使其在文字前面
+checkbutton66.deselect()
 
 canvas.create_text(
     745.0,
@@ -1043,8 +1063,13 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var69 = tk.IntVar()
+checkbutton69 = tk.Checkbutton(window, text="", variable=var69,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton69.place(x=722, y=632)  # 調整位置，使其在文字前面
+checkbutton69.deselect()
+
 canvas.create_text(
-    744.0,
+    745.0,
     603.0,
     anchor="nw",
     text="疑似瀰漫性非均質腺體",
@@ -1052,8 +1077,13 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var68 = tk.IntVar()
+checkbutton68 = tk.Checkbutton(window, text="", variable=var68,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton68.place(x=722, y=603)  # 調整位置，使其在文字前面
+checkbutton68.deselect()
+
 canvas.create_text(
-    429.0,
+    431.0,
     313.0,
     anchor="nw",
     text="疑似血管肌脂瘤\n(缺陷瘤)",
@@ -1061,14 +1091,24 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var24 = tk.IntVar()
+checkbutton24 = tk.Checkbutton(window, text="", variable=var24,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton24.place(x=410, y=313)  # 調整位置，使其在文字前面
+checkbutton24.deselect()
+
 canvas.create_text(
-    430.0,
+    431.0,
     285.0,
     anchor="nw",
     text="鈣化點",
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var23 = tk.IntVar()
+checkbutton23 = tk.Checkbutton(window, text="", variable=var23,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton23.place(x=410, y=285)  # 調整位置，使其在文字前面
+checkbutton23.deselect()
 
 canvas.create_text(
     238.0,
@@ -1078,6 +1118,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var16 = tk.IntVar()
+checkbutton16 = tk.Checkbutton(window, text="", variable=var16,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton16.place(x=216, y=359)  # 調整位置，使其在文字前面
+checkbutton16.deselect()
 
 canvas.create_text(
     379.0,
@@ -1097,6 +1142,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var53 = tk.IntVar()
+checkbutton53 = tk.Checkbutton(window, text="", variable=var53,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton53.place(x=390, y=669)  # 調整位置，使其在文字前面
+checkbutton53.deselect()
+
 canvas.create_text(
     412.0,
     613.0,
@@ -1105,6 +1155,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var51 = tk.IntVar()
+checkbutton51 = tk.Checkbutton(window, text="", variable=var51,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton51.place(x=390, y=613)  # 調整位置，使其在文字前面
+checkbutton51.deselect()
 
 canvas.create_text(
     516.0,
@@ -1123,6 +1178,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var52 = tk.IntVar()
+checkbutton52 = tk.Checkbutton(window, text="", variable=var52,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton52.place(x=390, y=641)  # 調整位置，使其在文字前面
+checkbutton52.deselect()
 
 canvas.create_text(
     293.0,
@@ -1205,6 +1265,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var70 = tk.IntVar()
+checkbutton70 = tk.Checkbutton(window, text="", variable=var70,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton70.place(x=913, y=405)  # 調整位置，使其在文字前面
+checkbutton70.deselect()
+
 canvas.create_text(
     984.0,
     458.0,
@@ -1223,6 +1288,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var71 = tk.IntVar()
+checkbutton71 = tk.Checkbutton(window, text="", variable=var71,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton71.place(x=913, y=435)  # 調整位置，使其在文字前面
+checkbutton71.deselect()
+
 canvas.create_text(
     936.0,
     489.0,
@@ -1231,6 +1301,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var72 = tk.IntVar()
+checkbutton72 = tk.Checkbutton(window, text="", variable=var72,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton72.place(x=913, y=489)  # 調整位置，使其在文字前面
+checkbutton72.deselect()
 
 canvas.create_text(
     1070.0,
@@ -1259,6 +1334,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var74 = tk.IntVar()
+checkbutton74 = tk.Checkbutton(window, text="", variable=var74,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton74.place(x=913, y=549)  # 調整位置，使其在文字前面
+checkbutton74.deselect()
+
 canvas.create_text(
     935.0,
     605.0,
@@ -1268,6 +1348,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var75 = tk.IntVar()
+checkbutton75 = tk.Checkbutton(window, text="", variable=var75,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton75.place(x=913, y=605)  # 調整位置，使其在文字前面
+checkbutton75.deselect()
+
 canvas.create_text(
     936.0,
     634.0,
@@ -1276,6 +1361,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var76 = tk.IntVar()
+checkbutton76 = tk.Checkbutton(window, text="", variable=var76,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton76.place(x=913, y=634)  # 調整位置，使其在文字前面
+checkbutton76.deselect()
 
 canvas.create_text(
     1069.0,
@@ -1304,6 +1394,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var73 = tk.IntVar()
+checkbutton73 = tk.Checkbutton(window, text="", variable=var73,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton73.place(x=913, y=520)  # 調整位置，使其在文字前面
+checkbutton73.deselect()
+
 canvas.create_text(
     1052.0,
     520.0,
@@ -1331,6 +1426,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var54 = tk.IntVar()
+checkbutton54 = tk.Checkbutton(window, text="", variable=var54,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton54.place(x=546, y=613)  # 調整位置，使其在文字前面
+checkbutton54.deselect()
+
 canvas.create_text(
     649.0,
     613.0,
@@ -1348,6 +1448,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var55 = tk.IntVar()
+checkbutton55 = tk.Checkbutton(window, text="", variable=var55,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton55.place(x=546, y=641)  # 調整位置，使其在文字前面
+checkbutton55.deselect()
 
 canvas.create_text(
     671.0,
@@ -1367,6 +1472,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var56 = tk.IntVar()
+checkbutton56 = tk.Checkbutton(window, text="", variable=var56,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton56.place(x=546, y=669)  # 調整位置，使其在文字前面
+checkbutton56.deselect()
+
 canvas.create_text(
     671.0,
     669.0,
@@ -1384,6 +1494,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var26 = tk.IntVar()
+checkbutton26 = tk.Checkbutton(window, text="", variable=var26,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton26.place(x=557, y=230)  # 調整位置，使其在文字前面
+checkbutton26.deselect()
 
 canvas.create_text(
     662.0,
@@ -1412,6 +1527,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var61 = tk.IntVar()
+checkbutton61 = tk.Checkbutton(window, text="", variable=var61,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton61.place(x=721, y=258)  # 調整位置，使其在文字前面
+checkbutton61.deselect()
+
 canvas.create_text(
     858.0,
     258.0,
@@ -1429,6 +1549,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var62 = tk.IntVar()
+checkbutton62 = tk.Checkbutton(window, text="", variable=var62,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0)
+checkbutton62.place(x=721, y=286)  # 調整位置，使其在文字前面
+checkbutton62.deselect()
 
 canvas.create_text(
     858.0,
@@ -1448,6 +1573,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var27 = tk.IntVar()
+checkbutton27 = tk.Checkbutton(window, text="", variable=var27,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton27.place(x=557, y=258)  # 調整位置，使其在文字前面
+checkbutton27.deselect()
+
 canvas.create_text(
     662.0,
     258.0,
@@ -1466,6 +1596,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var28 = tk.IntVar()
+checkbutton28 = tk.Checkbutton(window, text="", variable=var28,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton28.place(x=557, y=285)  # 調整位置，使其在文字前面
+checkbutton28.deselect()
+
 canvas.create_text(
     577.0,
     313.0,
@@ -1475,6 +1610,11 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 
+var29 = tk.IntVar()
+checkbutton29 = tk.Checkbutton(window, text="", variable=var29,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton29.place(x=557, y=313)  # 調整位置，使其在文字前面
+checkbutton29.deselect()
+
 canvas.create_text(
     578.0,
     357.0,
@@ -1483,6 +1623,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var30 = tk.IntVar()
+checkbutton30 = tk.Checkbutton(window, text="", variable=var30,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton30.place(x=557, y=357)  # 調整位置，使其在文字前面
+checkbutton30.deselect()
 
 canvas.create_text(
     674.0,
@@ -1510,6 +1655,11 @@ canvas.create_text(
     fill="#000000",
     font=("微軟正黑體", 14 * -1)
 )
+
+var25 = tk.IntVar()
+checkbutton25 = tk.Checkbutton(window, text="", variable=var25,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton25.place(x=410, y=357)  # 調整位置，使其在文字前面
+checkbutton25.deselect()
 
 entry_image_1 = PhotoImage(
     file=relative_to_assets("entry_1.png"))
@@ -2250,5 +2400,20 @@ entry_37.place(
     width=44.0,
     height=15.0
 )
+
+def output():
+    print(var62.get())
+
+
+btn = tk.Button(window, text='匯出表單',font='微軟正黑體',relief='raised',command=output)     # 建立 Button 按鈕
+btn.place(                                  # 加入視窗中
+    x=975.0,
+    y=115.0,
+    width=100.0,
+    height=30.0
+)                                 
+
+
+
 window.resizable(False, False)
 window.mainloop()
