@@ -103,7 +103,7 @@ canvas.create_text(
     font=("微軟正黑體", 24 * -1,"bold")
 )
 var01 = tk.IntVar()
-checkbutton01 = tk.Checkbutton(window, text="", variable=var01,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton01 = tk.Checkbutton(window, text="", variable=var01,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton01.place(x=82, y=179)  # 調整位置，使其在文字前面
 checkbutton01.deselect()
 
@@ -116,7 +116,7 @@ canvas.create_text(
     font=("微軟正黑體", 24 * -1,"bold")
 )
 var57 = tk.IntVar()
-checkbutton57 = tk.Checkbutton(window, text="", variable=var57,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton57 = tk.Checkbutton(window, text="", variable=var57,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton57.place(x=726, y=183)  # 調整位置，使其在文字前面
 checkbutton57.deselect()
 
@@ -130,7 +130,7 @@ canvas.create_text(
     font=("微軟正黑體", 24 * -1,"bold")
 )
 var37 = tk.IntVar()
-checkbutton37 = tk.Checkbutton(window, text="", variable=var37,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton37 = tk.Checkbutton(window, text="", variable=var37,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton37.place(x=54, y=521)  # 調整位置，使其在文字前面
 checkbutton37.deselect()
 
@@ -162,7 +162,7 @@ canvas.create_text(
 )
 
 var02 = tk.IntVar()
-checkbutton02 = tk.Checkbutton(window, text="", variable=var02,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton02 = tk.Checkbutton(window, text="", variable=var02,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton02.place(x=250, y=179)  # 調整位置，使其在文字前面
 checkbutton02.deselect()
 
@@ -176,7 +176,7 @@ canvas.create_text(
 )
 
 var58 = tk.IntVar()
-checkbutton58 = tk.Checkbutton(window, text="", variable=var58,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton58 = tk.Checkbutton(window, text="", variable=var58,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton58.place(x=743, y=207)  # 調整位置，使其在文字前面
 checkbutton58.deselect()
 
@@ -190,7 +190,7 @@ canvas.create_text(
 )
 
 var03 = tk.IntVar()
-checkbutton03 = tk.Checkbutton(window, text="", variable=var03,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton03 = tk.Checkbutton(window, text="", variable=var03,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton03.place(x=390, y=179)  # 調整位置，使其在文字前面
 checkbutton03.deselect()
 
@@ -204,7 +204,7 @@ canvas.create_text(
 )
 
 var59 = tk.IntVar()
-checkbutton59 = tk.Checkbutton(window, text="", variable=var59,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton59 = tk.Checkbutton(window, text="", variable=var59,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton59.place(x=860, y=207)  # 調整位置，使其在文字前面
 checkbutton59.deselect()
 
@@ -218,7 +218,7 @@ canvas.create_text(
 )
 
 var04 = tk.IntVar()
-checkbutton04 = tk.Checkbutton(window, text="", variable=var04,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton04 = tk.Checkbutton(window, text="", variable=var04,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton04.place(x=530, y=179)  # 調整位置，使其在文字前面
 checkbutton04.deselect()
 
@@ -232,7 +232,7 @@ canvas.create_text(
 )
 
 var38 = tk.IntVar()
-checkbutton38 = tk.Checkbutton(window, text="", variable=var38,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton38 = tk.Checkbutton(window, text="", variable=var38,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton38.place(x=55, y=551)  # 調整位置，使其在文字前面
 checkbutton38.deselect()
 
@@ -249,7 +249,7 @@ canvas.create_text(
 )
 
 var39 = tk.IntVar()
-checkbutton39 = tk.Checkbutton(window, text="", variable=var39,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton39 = tk.Checkbutton(window, text="", variable=var39,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton39.place(x=175, y=551)  # 調整位置，使其在文字前面
 checkbutton39.deselect()
 
@@ -264,7 +264,7 @@ canvas.create_text(
 )
 
 var40 = tk.IntVar()
-checkbutton40 = tk.Checkbutton(window, text="", variable=var40,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton40 = tk.Checkbutton(window, text="", variable=var40,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton40.place(x=300, y=551)  # 調整位置，使其在文字前面
 checkbutton40.deselect()
 
@@ -278,7 +278,7 @@ canvas.create_text(
 )
 
 var47 = tk.IntVar()
-checkbutton47 = tk.Checkbutton(window, text="", variable=var47,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton47 = tk.Checkbutton(window, text="", variable=var47,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton47.place(x=390, y=523)  # 調整位置，使其在文字前面
 checkbutton47.deselect()
 
@@ -293,7 +293,7 @@ canvas.create_text(
 )
 
 var48 = tk.IntVar()
-checkbutton48 = tk.Checkbutton(window, text="", variable=var48,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton48 = tk.Checkbutton(window, text="", variable=var48,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton48.place(x=395, y=551)  # 調整位置，使其在文字前面
 checkbutton48.deselect()
 
@@ -307,7 +307,7 @@ canvas.create_text(
 )
 
 var49 = tk.IntVar()
-checkbutton49 = tk.Checkbutton(window, text="", variable=var49,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton49 = tk.Checkbutton(window, text="", variable=var49,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton49.place(x=510, y=551)  # 調整位置，使其在文字前面
 checkbutton49.deselect()
 
@@ -321,7 +321,7 @@ canvas.create_text(
 )
 
 var50 = tk.IntVar()
-checkbutton50 = tk.Checkbutton(window, text="", variable=var50,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton50 = tk.Checkbutton(window, text="", variable=var50,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton50.place(x=630, y=551)  # 調整位置，使其在文字前面
 checkbutton50.deselect()
 
@@ -335,7 +335,7 @@ canvas.create_text(
 )
 
 var60 = tk.IntVar()
-checkbutton60 = tk.Checkbutton(window, text="", variable=var60,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton60 = tk.Checkbutton(window, text="", variable=var60,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton60.place(x=990, y=207)  # 調整位置，使其在文字前面
 checkbutton60.deselect()
 
@@ -349,7 +349,7 @@ canvas.create_text(
 )
 
 var05 = tk.IntVar()
-checkbutton05 = tk.Checkbutton(window, text="", variable=var05,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton05 = tk.Checkbutton(window, text="", variable=var05,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton05.place(x=54, y=230)  # 調整位置，使其在文字前面
 checkbutton05.deselect()
 
@@ -419,7 +419,7 @@ canvas.create_text(
 )
 
 var06 = tk.IntVar()
-checkbutton06 = tk.Checkbutton(window, text="", variable=var06,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton06 = tk.Checkbutton(window, text="", variable=var06,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton06.place(x=54, y=258)  # 調整位置，使其在文字前面
 checkbutton06.deselect()
 
@@ -432,7 +432,7 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 var07 = tk.IntVar()
-checkbutton07 = tk.Checkbutton(window, text="", variable=var07,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton07 = tk.Checkbutton(window, text="", variable=var07,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton07.place(x=54, y=286)  # 調整位置，使其在文字前面
 checkbutton07.deselect()
 
@@ -446,7 +446,7 @@ canvas.create_text(
 )
 
 var08 = tk.IntVar()
-checkbutton08 = tk.Checkbutton(window, text="", variable=var08,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton08 = tk.Checkbutton(window, text="", variable=var08,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton08.place(x=54, y=314)  # 調整位置，使其在文字前面
 checkbutton08.deselect()
 
@@ -461,7 +461,7 @@ canvas.create_text(
 )
 
 var09 = tk.IntVar()
-checkbutton09 = tk.Checkbutton(window, text="", variable=var09,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton09 = tk.Checkbutton(window, text="", variable=var09,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton09.place(x=54, y=342)  # 調整位置，使其在文字前面
 checkbutton09.deselect()
 
@@ -475,7 +475,7 @@ canvas.create_text(
 )
 
 var10 = tk.IntVar()
-checkbutton10 = tk.Checkbutton(window, text="", variable=var10,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton10 = tk.Checkbutton(window, text="", variable=var10,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton10.place(x=54, y=370)  # 調整位置，使其在文字前面
 checkbutton10.deselect()
 
@@ -489,7 +489,7 @@ canvas.create_text(
 )
 
 var11 = tk.IntVar()
-checkbutton11 = tk.Checkbutton(window, text="", variable=var11,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton11 = tk.Checkbutton(window, text="", variable=var11,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton11.place(x=54, y=398)  # 調整位置，使其在文字前面
 checkbutton11.deselect()
 
@@ -503,7 +503,7 @@ canvas.create_text(
 )
 
 var12 = tk.IntVar()
-checkbutton12 = tk.Checkbutton(window, text="", variable=var12,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton12 = tk.Checkbutton(window, text="", variable=var12,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton12.place(x=216, y=232)  # 調整位置，使其在文字前面
 checkbutton12.deselect()
 
@@ -517,7 +517,7 @@ canvas.create_text(
 )
 
 var63 = tk.IntVar()
-checkbutton63 = tk.Checkbutton(window, text="", variable=var63,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton63 = tk.Checkbutton(window, text="", variable=var63,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton63.place(x=722, y=403)  # 調整位置，使其在文字前面
 checkbutton63.deselect()
 
@@ -531,7 +531,7 @@ canvas.create_text(
 )
 
 var31 = tk.IntVar()
-checkbutton31 = tk.Checkbutton(window, text="", variable=var31,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton31 = tk.Checkbutton(window, text="", variable=var31,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton31.place(x=410, y=406)  # 調整位置，使其在文字前面
 checkbutton31.deselect()
 
@@ -544,7 +544,7 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 var32 = tk.IntVar()
-checkbutton32 = tk.Checkbutton(window, text="", variable=var32,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton32 = tk.Checkbutton(window, text="", variable=var32,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton32.place(x=410, y=433)  # 調整位置，使其在文字前面
 checkbutton32.deselect()
 
@@ -558,7 +558,7 @@ canvas.create_text(
 )
 
 var33 = tk.IntVar()
-checkbutton33 = tk.Checkbutton(window, text="", variable=var33,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton33 = tk.Checkbutton(window, text="", variable=var33,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton33.place(x=410, y=460)  # 調整位置，使其在文字前面
 checkbutton33.deselect()
 
@@ -572,7 +572,7 @@ canvas.create_text(
 )
 
 var34 = tk.IntVar()
-checkbutton34 = tk.Checkbutton(window, text="", variable=var34,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton34 = tk.Checkbutton(window, text="", variable=var34,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton34.place(x=559, y=403)  # 調整位置，使其在文字前面
 checkbutton34.deselect()
 
@@ -586,7 +586,7 @@ canvas.create_text(
 )
 
 var35 = tk.IntVar()
-checkbutton35 = tk.Checkbutton(window, text="", variable=var35,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton35 = tk.Checkbutton(window, text="", variable=var35,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton35.place(x=559, y=430)  # 調整位置，使其在文字前面
 checkbutton35.deselect()
 
@@ -600,7 +600,7 @@ canvas.create_text(
 )
 
 var36 = tk.IntVar()
-checkbutton36 = tk.Checkbutton(window, text="", variable=var36,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton36 = tk.Checkbutton(window, text="", variable=var36,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton36.place(x=559, y=457)  # 調整位置，使其在文字前面
 checkbutton36.deselect()
 
@@ -614,7 +614,7 @@ canvas.create_text(
 )
 
 var14 = tk.IntVar()
-checkbutton14 = tk.Checkbutton(window, text="", variable=var14,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton14 = tk.Checkbutton(window, text="", variable=var14,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton14.place(x=216, y=282)  # 調整位置，使其在文字前面
 checkbutton14.deselect()
 
@@ -627,7 +627,7 @@ canvas.create_text(
     font=("微軟正黑體", 14 * -1)
 )
 var13 = tk.IntVar()
-checkbutton13 = tk.Checkbutton(window, text="", variable=var13,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton13 = tk.Checkbutton(window, text="", variable=var13,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton13.place(x=216, y=258)  # 調整位置，使其在文字前面
 checkbutton13.deselect()
 
@@ -650,7 +650,7 @@ canvas.create_text(
 )
 
 var15 = tk.IntVar()
-checkbutton15 = tk.Checkbutton(window, text="", variable=var15,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton15 = tk.Checkbutton(window, text="", variable=var15,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton15.place(x=216, y=333)  # 調整位置，使其在文字前面
 checkbutton15.deselect()
 
@@ -682,7 +682,7 @@ canvas.create_text(
 )
 
 var17 = tk.IntVar()
-checkbutton17 = tk.Checkbutton(window, text="", variable=var17,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton17 = tk.Checkbutton(window, text="", variable=var17,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton17.place(x=216, y=405)  # 調整位置，使其在文字前面
 checkbutton17.deselect()
 
@@ -696,7 +696,7 @@ canvas.create_text(
 )
 
 var19 = tk.IntVar()
-checkbutton19 = tk.Checkbutton(window, text="", variable=var19,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton19 = tk.Checkbutton(window, text="", variable=var19,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton19.place(x=216, y=453)  # 調整位置，使其在文字前面
 checkbutton19.deselect()
 
@@ -710,7 +710,7 @@ canvas.create_text(
 )
 
 var20 = tk.IntVar()
-checkbutton20 = tk.Checkbutton(window, text="", variable=var20,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton20 = tk.Checkbutton(window, text="", variable=var20,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton20.place(x=216, y=477)  # 調整位置，使其在文字前面
 checkbutton20.deselect()
 
@@ -724,7 +724,7 @@ canvas.create_text(
 )
 
 var18 = tk.IntVar()
-checkbutton18 = tk.Checkbutton(window, text="", variable=var18,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton18 = tk.Checkbutton(window, text="", variable=var18,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton18.place(x=216, y=429)  # 調整位置，使其在文字前面
 checkbutton18.deselect()
 
@@ -756,7 +756,7 @@ canvas.create_text(
 )
 
 var42 = tk.IntVar()
-checkbutton42 = tk.Checkbutton(window, text="", variable=var42,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton42 = tk.Checkbutton(window, text="", variable=var42,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton42.place(x=54, y=641)  # 調整位置，使其在文字前面
 checkbutton42.deselect()
 
@@ -770,7 +770,7 @@ canvas.create_text(
 )
 
 var41 = tk.IntVar()
-checkbutton41 = tk.Checkbutton(window, text="", variable=var41,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton41 = tk.Checkbutton(window, text="", variable=var41,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton41.place(x=54, y=613)  # 調整位置，使其在文字前面
 checkbutton41.deselect()
 
@@ -784,7 +784,7 @@ canvas.create_text(
 )
 
 var43 = tk.IntVar()
-checkbutton43 = tk.Checkbutton(window, text="", variable=var43,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton43 = tk.Checkbutton(window, text="", variable=var43,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton43.place(x=54, y=672)  # 調整位置，使其在文字前面
 checkbutton43.deselect()
 
@@ -798,7 +798,7 @@ canvas.create_text(
 )
 
 var45 = tk.IntVar()
-checkbutton45 = tk.Checkbutton(window, text="", variable=var45,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton45 = tk.Checkbutton(window, text="", variable=var45,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton45.place(x=218, y=641)  # 調整位置，使其在文字前面
 checkbutton45.deselect()
 
@@ -830,7 +830,7 @@ canvas.create_text(
 )
 
 var46 = tk.IntVar()
-checkbutton46 = tk.Checkbutton(window, text="", variable=var46,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton46 = tk.Checkbutton(window, text="", variable=var46,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton46.place(x=218, y=672)  # 調整位置，使其在文字前面
 checkbutton46.deselect()
 
@@ -844,7 +844,7 @@ canvas.create_text(
 )
 
 var21 = tk.IntVar()
-checkbutton21 = tk.Checkbutton(window, text="", variable=var21,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton21 = tk.Checkbutton(window, text="", variable=var21,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton21.place(x=410, y=230)  # 調整位置，使其在文字前面
 checkbutton21.deselect()
 
@@ -858,7 +858,7 @@ canvas.create_text(
 )
 
 var44 = tk.IntVar()
-checkbutton44 = tk.Checkbutton(window, text="", variable=var44,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton44 = tk.Checkbutton(window, text="", variable=var44,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton44.place(x=218, y=613)  # 調整位置，使其在文字前面
 checkbutton44.deselect()
 
@@ -908,7 +908,7 @@ canvas.create_text(
 )
 
 var22 = tk.IntVar()
-checkbutton22 = tk.Checkbutton(window, text="", variable=var22,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton22 = tk.Checkbutton(window, text="", variable=var22,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton22.place(x=410, y=258)  # 調整位置，使其在文字前面
 checkbutton22.deselect()
 
@@ -958,7 +958,7 @@ canvas.create_text(
 )
 
 var14 = tk.IntVar()
-checkbutton14 = tk.Checkbutton(window, text="", variable=var14,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton14 = tk.Checkbutton(window, text="", variable=var14,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton14.place(x=216, y=282)  # 調整位置，使其在文字前面
 checkbutton14.deselect()
 
@@ -981,7 +981,7 @@ canvas.create_text(
 )
 
 var64 = tk.IntVar()
-checkbutton64 = tk.Checkbutton(window, text="", variable=var64,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton64 = tk.Checkbutton(window, text="", variable=var64,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton64.place(x=722, y=433)  # 調整位置，使其在文字前面
 checkbutton64.deselect()
 
@@ -995,7 +995,7 @@ canvas.create_text(
 )
 
 var65 = tk.IntVar()
-checkbutton65 = tk.Checkbutton(window, text="", variable=var65,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton65 = tk.Checkbutton(window, text="", variable=var65,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton65.place(x=722, y=487)  # 調整位置，使其在文字前面
 checkbutton65.deselect()
 
@@ -1018,7 +1018,7 @@ canvas.create_text(
 )
 
 var67 = tk.IntVar()
-checkbutton67 = tk.Checkbutton(window, text="", variable=var67,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton67 = tk.Checkbutton(window, text="", variable=var67,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton67.place(x=722, y=547)  # 調整位置，使其在文字前面
 checkbutton67.deselect()
 
@@ -1050,7 +1050,7 @@ canvas.create_text(
 )
 
 var66 = tk.IntVar()
-checkbutton66 = tk.Checkbutton(window, text="", variable=var66,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton66 = tk.Checkbutton(window, text="", variable=var66,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton66.place(x=722, y=518)  # 調整位置，使其在文字前面
 checkbutton66.deselect()
 
@@ -1064,7 +1064,7 @@ canvas.create_text(
 )
 
 var69 = tk.IntVar()
-checkbutton69 = tk.Checkbutton(window, text="", variable=var69,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton69 = tk.Checkbutton(window, text="", variable=var69,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton69.place(x=722, y=632)  # 調整位置，使其在文字前面
 checkbutton69.deselect()
 
@@ -1078,7 +1078,7 @@ canvas.create_text(
 )
 
 var68 = tk.IntVar()
-checkbutton68 = tk.Checkbutton(window, text="", variable=var68,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton68 = tk.Checkbutton(window, text="", variable=var68,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton68.place(x=722, y=603)  # 調整位置，使其在文字前面
 checkbutton68.deselect()
 
@@ -1092,7 +1092,7 @@ canvas.create_text(
 )
 
 var24 = tk.IntVar()
-checkbutton24 = tk.Checkbutton(window, text="", variable=var24,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton24 = tk.Checkbutton(window, text="", variable=var24,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton24.place(x=410, y=313)  # 調整位置，使其在文字前面
 checkbutton24.deselect()
 
@@ -1106,7 +1106,7 @@ canvas.create_text(
 )
 
 var23 = tk.IntVar()
-checkbutton23 = tk.Checkbutton(window, text="", variable=var23,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton23 = tk.Checkbutton(window, text="", variable=var23,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton23.place(x=410, y=285)  # 調整位置，使其在文字前面
 checkbutton23.deselect()
 
@@ -1120,7 +1120,7 @@ canvas.create_text(
 )
 
 var16 = tk.IntVar()
-checkbutton16 = tk.Checkbutton(window, text="", variable=var16,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton16 = tk.Checkbutton(window, text="", variable=var16,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton16.place(x=216, y=359)  # 調整位置，使其在文字前面
 checkbutton16.deselect()
 
@@ -1143,7 +1143,7 @@ canvas.create_text(
 )
 
 var53 = tk.IntVar()
-checkbutton53 = tk.Checkbutton(window, text="", variable=var53,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton53 = tk.Checkbutton(window, text="", variable=var53,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton53.place(x=390, y=669)  # 調整位置，使其在文字前面
 checkbutton53.deselect()
 
@@ -1157,7 +1157,7 @@ canvas.create_text(
 )
 
 var51 = tk.IntVar()
-checkbutton51 = tk.Checkbutton(window, text="", variable=var51,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton51 = tk.Checkbutton(window, text="", variable=var51,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton51.place(x=390, y=613)  # 調整位置，使其在文字前面
 checkbutton51.deselect()
 
@@ -1180,7 +1180,7 @@ canvas.create_text(
 )
 
 var52 = tk.IntVar()
-checkbutton52 = tk.Checkbutton(window, text="", variable=var52,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton52 = tk.Checkbutton(window, text="", variable=var52,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton52.place(x=390, y=641)  # 調整位置，使其在文字前面
 checkbutton52.deselect()
 
@@ -1266,7 +1266,7 @@ canvas.create_text(
 )
 
 var70 = tk.IntVar()
-checkbutton70 = tk.Checkbutton(window, text="", variable=var70,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton70 = tk.Checkbutton(window, text="", variable=var70,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton70.place(x=913, y=405)  # 調整位置，使其在文字前面
 checkbutton70.deselect()
 
@@ -1289,7 +1289,7 @@ canvas.create_text(
 )
 
 var71 = tk.IntVar()
-checkbutton71 = tk.Checkbutton(window, text="", variable=var71,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton71 = tk.Checkbutton(window, text="", variable=var71,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton71.place(x=913, y=435)  # 調整位置，使其在文字前面
 checkbutton71.deselect()
 
@@ -1303,7 +1303,7 @@ canvas.create_text(
 )
 
 var72 = tk.IntVar()
-checkbutton72 = tk.Checkbutton(window, text="", variable=var72,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton72 = tk.Checkbutton(window, text="", variable=var72,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton72.place(x=913, y=489)  # 調整位置，使其在文字前面
 checkbutton72.deselect()
 
@@ -1335,7 +1335,7 @@ canvas.create_text(
 )
 
 var74 = tk.IntVar()
-checkbutton74 = tk.Checkbutton(window, text="", variable=var74,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton74 = tk.Checkbutton(window, text="", variable=var74,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton74.place(x=913, y=549)  # 調整位置，使其在文字前面
 checkbutton74.deselect()
 
@@ -1349,7 +1349,7 @@ canvas.create_text(
 )
 
 var75 = tk.IntVar()
-checkbutton75 = tk.Checkbutton(window, text="", variable=var75,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton75 = tk.Checkbutton(window, text="", variable=var75,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton75.place(x=913, y=605)  # 調整位置，使其在文字前面
 checkbutton75.deselect()
 
@@ -1363,7 +1363,7 @@ canvas.create_text(
 )
 
 var76 = tk.IntVar()
-checkbutton76 = tk.Checkbutton(window, text="", variable=var76,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton76 = tk.Checkbutton(window, text="", variable=var76,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton76.place(x=913, y=634)  # 調整位置，使其在文字前面
 checkbutton76.deselect()
 
@@ -1395,7 +1395,7 @@ canvas.create_text(
 )
 
 var73 = tk.IntVar()
-checkbutton73 = tk.Checkbutton(window, text="", variable=var73,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton73 = tk.Checkbutton(window, text="", variable=var73,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton73.place(x=913, y=520)  # 調整位置，使其在文字前面
 checkbutton73.deselect()
 
@@ -1427,7 +1427,7 @@ canvas.create_text(
 )
 
 var54 = tk.IntVar()
-checkbutton54 = tk.Checkbutton(window, text="", variable=var54,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton54 = tk.Checkbutton(window, text="", variable=var54,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton54.place(x=546, y=613)  # 調整位置，使其在文字前面
 checkbutton54.deselect()
 
@@ -1450,7 +1450,7 @@ canvas.create_text(
 )
 
 var55 = tk.IntVar()
-checkbutton55 = tk.Checkbutton(window, text="", variable=var55,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton55 = tk.Checkbutton(window, text="", variable=var55,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton55.place(x=546, y=641)  # 調整位置，使其在文字前面
 checkbutton55.deselect()
 
@@ -1473,7 +1473,7 @@ canvas.create_text(
 )
 
 var56 = tk.IntVar()
-checkbutton56 = tk.Checkbutton(window, text="", variable=var56,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton56 = tk.Checkbutton(window, text="", variable=var56,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton56.place(x=546, y=669)  # 調整位置，使其在文字前面
 checkbutton56.deselect()
 
@@ -1496,7 +1496,7 @@ canvas.create_text(
 )
 
 var26 = tk.IntVar()
-checkbutton26 = tk.Checkbutton(window, text="", variable=var26,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton26 = tk.Checkbutton(window, text="", variable=var26,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton26.place(x=557, y=230)  # 調整位置，使其在文字前面
 checkbutton26.deselect()
 
@@ -1528,7 +1528,7 @@ canvas.create_text(
 )
 
 var61 = tk.IntVar()
-checkbutton61 = tk.Checkbutton(window, text="", variable=var61,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton61 = tk.Checkbutton(window, text="", variable=var61,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton61.place(x=721, y=258)  # 調整位置，使其在文字前面
 checkbutton61.deselect()
 
@@ -1551,7 +1551,7 @@ canvas.create_text(
 )
 
 var62 = tk.IntVar()
-checkbutton62 = tk.Checkbutton(window, text="", variable=var62,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0)
+checkbutton62 = tk.Checkbutton(window, text="", variable=var62,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton62.place(x=721, y=286)  # 調整位置，使其在文字前面
 checkbutton62.deselect()
 
@@ -1574,7 +1574,7 @@ canvas.create_text(
 )
 
 var27 = tk.IntVar()
-checkbutton27 = tk.Checkbutton(window, text="", variable=var27,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton27 = tk.Checkbutton(window, text="", variable=var27,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton27.place(x=557, y=258)  # 調整位置，使其在文字前面
 checkbutton27.deselect()
 
@@ -1597,7 +1597,7 @@ canvas.create_text(
 )
 
 var28 = tk.IntVar()
-checkbutton28 = tk.Checkbutton(window, text="", variable=var28,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton28 = tk.Checkbutton(window, text="", variable=var28,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton28.place(x=557, y=285)  # 調整位置，使其在文字前面
 checkbutton28.deselect()
 
@@ -1611,7 +1611,7 @@ canvas.create_text(
 )
 
 var29 = tk.IntVar()
-checkbutton29 = tk.Checkbutton(window, text="", variable=var29,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton29 = tk.Checkbutton(window, text="", variable=var29,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton29.place(x=557, y=313)  # 調整位置，使其在文字前面
 checkbutton29.deselect()
 
@@ -1625,7 +1625,7 @@ canvas.create_text(
 )
 
 var30 = tk.IntVar()
-checkbutton30 = tk.Checkbutton(window, text="", variable=var30,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton30 = tk.Checkbutton(window, text="", variable=var30,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton30.place(x=557, y=357)  # 調整位置，使其在文字前面
 checkbutton30.deselect()
 
@@ -1657,7 +1657,7 @@ canvas.create_text(
 )
 
 var25 = tk.IntVar()
-checkbutton25 = tk.Checkbutton(window, text="", variable=var25,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9')
+checkbutton25 = tk.Checkbutton(window, text="", variable=var25,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton25.place(x=410, y=357)  # 調整位置，使其在文字前面
 checkbutton25.deselect()
 
