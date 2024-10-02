@@ -2413,7 +2413,7 @@ btn.place(                                  # 加入視窗中
     height=30.0
 )                                 
 
-
+#
 
 window.resizable(False, False)
 window.mainloop()
