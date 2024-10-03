@@ -34,6 +34,8 @@ doc = SimpleDocTemplate(outptu_file,
                         bottomMargin=0
                         )
 
+
+
 ans01="　脂肪肝( 輕 中度以上)\n\n　肝囊腫\n\n　疑似血管瘤\n\n　疑似脂肪分布不均\n\n　肝內鈣化\n\n　肝實質疾病\n\n　(高/同/低)回音病灶\n\n\n"
 ans02="　切除術後\n\n　結石ｘｘｘmm\n\n　結石(多發性)\n　ｘｘｘmm~ｘｘｘmm\n\n　瘜肉ｘｘｘmm\n\n　瘜肉(多發性)\n　ｘｘｘmm~ｘｘｘmm\n\n　膽壁增厚\n\n　總膽管擴張ｘｘｘmm\n\n　膽泥、膽砂\n\n　進食後膽囊\n\n\n"
 ans03="　結石ＸＸＸmm\n\n　囊腫ＸＸＸmm\n\n　鈣化點ＸＸＸmm\n\n　疑似血管肌脂瘤(缺陷瘤)\n\n　賢盂積水\n\n\n\n"
@@ -67,7 +69,7 @@ data=  [['超音波檢查紀錄單', 'x', 'x', '檢查日期:', '04', '05', '操
         ['攝護腺', '101', '膀胱', '103', '峽部', '105', '106', '107'],
         ['110', '111', '112', '113', '114', '115', '116', '117'],
         ['120', '121', '122', '123', '右側', '125', '左側', '127'],
-        ['130', '131', '132', '133', '134', '135', '136', ''],
+        ['130', '131', '132', '133', '', '135', '', ''],
         ['頸動脈中內膜厚度超音波', '141', '142', '143', '144', '145', '146', ''],
         ['無明顯異常　已告知回診　備註', '151', '152', '153', '154', '155', '156', ''],
         ['右側', '161', '左側', '163', '164', '165', '166', ''],
@@ -85,6 +87,10 @@ data[11][2]=ans08
 data[17][0]=ans09
 data[17][2]=ans10
 data[11][4]=ans11
+
+check = [0] * 76
+
+
 
 
 
@@ -222,7 +228,87 @@ t.setStyle(TableStyle([
 
 
 
-doc.build([t])
+def draw_square_on_canvas(canvas, doc):
+    text_63_69=['切除術後',
+                '疑似多發性結節',
+                'xxx mm~ xxx mm',
+                '疑似結節 xxx mm',
+                '疑似囊腫 xxx mm',
+                '疑似多發性囊腫',
+                'xxx mm~ xxx mm',
+                '疑似瀰漫性非均質腺體',
+                '(高/同/低)回音病灶'
+                ]
+    
+    text_70_76=['切除術後',
+                '疑似多發性結節',
+                'xxx mm~ xxx mm',
+                '疑似結節 xxx mm',
+                '疑似囊腫 xxx mm',
+                '疑似多發性囊腫',
+                'xxx mm~ xxx mm',
+                '疑似瀰漫性非均質腺體',
+                '(高/同/低)回音病灶'
+                ] 
+
+    # 保存當前畫布狀態
+    canvas.saveState()
+    canvas.setFont('Msjh',10)
+    x1 = 313.5
+    x2 = 445
+    y = 295
+    for i in range(0,8):
+        canvas.drawString(x1, y, text_63_69[i])
+        canvas.drawString(x2, y, text_70_76[i])
+        y-=18
+
+
+    
+
+    
+
+
+
+
+
+
+    x=100
+    y=100
+    for i in range(1,70):
+        if check[i] == 1 : #如果沒有打勾，只畫正方形
+            # 定義正方形大小
+            size = 7.5
+            # 繪製正方形
+            canvas.rect(x, y, size, size)
+        else:               #如果有打勾，畫正方形，打勾
+            # 定義正方形大小
+            size = 7.5
+            # 繪製正方形
+            canvas.rect(x, y, size, size)
+            checkmark_coords = [
+                        (x + 1.25, y + 3.75),  # 起点
+                        (x + 2.5, y + 1.25),  # 底部
+                        (x + 8, y + 8)   # 终点
+                        ]
+
+            # 使用 canvas.line 繪製每一條線
+            canvas.line(checkmark_coords[0][0], checkmark_coords[0][1], checkmark_coords[1][0], checkmark_coords[1][1])  # 第一段線
+            canvas.line(checkmark_coords[1][0], checkmark_coords[1][1], checkmark_coords[2][0], checkmark_coords[2][1])  # 第二段線            
+
+    # 恢復畫布狀態
+    canvas.restoreState()
+
+# 使用 onFirstPage 來調用繪製正方形和打勾
+doc.build([t], onFirstPage=lambda canvas, doc: draw_square_on_canvas(canvas, doc))
+
+print(A4[0])
+print(A4[1])
+
+
+
+
+
+
 
 
 
