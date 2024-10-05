@@ -152,6 +152,8 @@ canvas.create_text(
     font=("微軟正黑體", 20 * -1)
 )
 
+
+
 canvas.create_text(
     278.0,
     178.0,
@@ -165,6 +167,8 @@ var02 = tk.IntVar()
 checkbutton02 = tk.Checkbutton(window, text="", variable=var02,relief='flat',padx=0,pady=0,bd=0,bg='#d9d9d9',onvalue=1,offvalue=0,)
 checkbutton02.place(x=250, y=179)  # 調整位置，使其在文字前面
 checkbutton02.deselect()
+
+
 
 canvas.create_text(
     767.0,
@@ -1669,6 +1673,7 @@ entry_bg_1 = canvas.create_image(
     image=entry_image_1
 )
 entry_1 = Entry(
+    font="Arial",
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
@@ -1680,6 +1685,8 @@ entry_1.place(
     width=164.0,
     height=28.0
 )
+
+
 
 entry_image_2 = PhotoImage(
     file=relative_to_assets("entry_2.png"))
@@ -2400,7 +2407,52 @@ entry_37.place(
     width=44.0,
     height=15.0
 )
+#==================
+# 初始化變數sex，0表示男性，1表示女性
+sex = 0
 
+# 更新按鈕文字的函數
+def toggle_sex():
+    global sex
+    if sex == 0:
+        sex = 1
+        btn_sex.config(text="女性")
+    else:
+        sex = 0
+        btn_sex.config(text="男性")
+
+# 創建按鈕並設置初始文字，使用place()放置在指定的x, y位置
+btn_sex = tk.Button(window, text="男性", command=toggle_sex)
+btn_sex.config(font=("微軟正黑體", 12), width=6)
+btn_sex.place(x=420, y=112)
+#-----
+
+selected_option = tk.StringVar()
+selected_option.set("請選擇套組")
+
+# 可選選項
+options = ["選項 1", "選項 2", "選項 3", "選項 4"]
+
+dropdown=tk.OptionMenu(window,selected_option,*options)
+dropdown.config( fg="black", font=("微軟正黑體", 12), width=15)
+
+dropdown.place(x=610,y=112)
+
+
+#----
+
+selected_option_name = tk.StringVar()
+selected_option_name.set("請選擇操作人")
+
+# 可選選項
+options_name = ["王喵喵", "簡喵喵", "林喵喵"]
+
+dropdown_name=tk.OptionMenu(window,selected_option_name,*options_name)
+dropdown_name.config( fg="black", font=("微軟正黑體", 10), width=10)
+
+dropdown_name.place(x=930,y=75)
+
+#================
 def output():
     print(var62.get())
 
