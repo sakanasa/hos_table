@@ -21,7 +21,8 @@ print(os.getcwd())
 download_folder = os.path.join(os.path.expanduser("~"), "Downloads")
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"./assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(os.path.join('assets','frame0'))
+
 print(ASSETS_PATH)
 
 def relative_to_assets(path: str) -> Path:
